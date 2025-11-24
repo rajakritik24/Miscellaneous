@@ -7,7 +7,7 @@ from Miscellaneous.kb_manager import KnowledgeBaseManager
 logging.basicConfig(level=logging.INFO)
 
 async def main():
-    connection_string = "mongodb+srv://ritikrajak:fncCz4n4addsOXhC@100x-dev-cluster.d2zhvta.mongodb.net/"
+    connection_string = ""
     db_name = "test_db"
     collection_name = "kb_test"
 

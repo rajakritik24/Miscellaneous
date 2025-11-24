@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO)
 
 async def main():
     # Connection string for the local docker instance
-    connection_string = "mongodb+srv://ritikrajak:fncCz4n4addsOXhC@100x-dev-cluster.d2zhvta.mongodb.net/"
+    connection_string = ""
     db_name = "test_db"
     collection_name = "test_chunks"
 
